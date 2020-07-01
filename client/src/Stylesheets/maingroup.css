@@ -1,0 +1,146 @@
+#groupbox {
+    background: linear-gradient(-360deg, rgb(107, 20, 165), rgb(57, 81, 160));
+    height: 600px;
+    width: 1000px;
+    margin-left: 30%;
+    margin-top: -18%;
+    border-radius: 20px;
+}
+
+.grouptext {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 20px;
+    transform: translate(0, 19%);
+    text-align: center;
+}
+
+.container2 {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 900px;
+    display: inline-block;
+    overflow-y: scroll;
+}
+
+.card6 {
+    box-shadow: -1rem 0 3rem #000;
+    border-radius: 10px;
+    width: 800px;
+    height: 220px;
+    transition: 0.4s ease-out;
+    position: relative;
+    background-color: rgb(53, 52, 52);
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.card6:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card6:hover {
+    transform: translate(-10px, -10px);
+    transition: 0.4s ease-out;
+    z-index: 10;
+}
+
+.card6:hover ~ .card6 {
+    position: relative;
+    left: 150px;
+    transition: 0.4s ease-out;
+}
+
+.message34 {
+    margin-left: 200px;
+    margin-top: -25px;
+}
+
+.bold23 {
+    color: white;
+    transform: translate(-30%, 120%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button56 {
+    height: 80px;
+    background: linear-gradient(90deg, rgb(36, 73, 195), rgb(183, 73, 206));
+    color: white;
+    border-radius: 20px;
+    outline: none;
+}
+
+#buttonl2 {
+    transform: translate(0, -95%);
+}
+
+.bar6 {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    height: 5px;
+    width: 200px;
+    margin-top: -35px;
+    margin-left: 3px;
+}
+
+.emptybar6 {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+}
+
+.filledbar6 {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(52, 82, 218);
+    background: linear-gradient(
+        90deg,
+        rgb(113, 49, 138) 20%,
+        rgb(100, 89, 155) 65%,
+        rgb(57, 157, 197) 100%
+    );
+    transition: 0.6s ease-out;
+}
+
+.card6:hover .filledbar6 {
+    width: 600px;
+    transition: 0.4s ease-out;
+}
+
+.mestext {
+    color: white;
+    transform: translate(-29%, 330%);
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+.buttonText {
+    color: white;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+.but232 {
+    background-color: rgb(66, 170, 230);
+    transform: translate(0, 200%);
+}
+
+.title2 {
+    font-size: small;
+    text-align: end;
+    margin-right: 55px;
+    transform: translate(0, 30%);
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+}

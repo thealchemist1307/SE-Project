@@ -1,0 +1,58 @@
+body {
+    background: rgb(20, 20, 20);
+}
+
+.feedback {
+    width: 520px;
+    height: 580px;
+    background: linear-gradient(-120deg, rgb(208, 100, 241), rgb(72, 72, 204));
+    transform: translate(120%, 30%);
+    border-radius: 20px;
+}
+
+.feedback .text12 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    font-size: x-large;
+    transform: translate(0, 50%);
+}
+
+input[type="text"]::placeholder {
+    font-size: 16px;
+}
+
+#name {
+    margin-left: 30px;
+    margin-top: 60px;
+    width: 450px;
+}
+
+#email2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 450px;
+}
+
+#message {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 430px;
+    height: 120px;
+    resize: none;
+}
+
+#button2 {
+    margin-left: 70px;
+    width: 370px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#buttonhome2 {
+    margin-left: 70px;
+    width: 370px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: rgb(236, 60, 54);
+}

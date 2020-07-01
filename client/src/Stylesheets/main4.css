@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+.text {
+    text-align: center;
+    font-weight: 600;
+    font-family: "Varela", sans-serif;
+    color: white;
+    background-color: rgb(57, 81, 160);
+    font-size: 20px;
+}
+
+.textHead {
+    text-align: center;
+    font-family: "Varela", sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 660px;
+}
+
+.cont1 {
+    background: linear-gradient(-360deg, rgb(150, 27, 231), rgb(57, 81, 160));
+    height: 82%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#head4 {
+    background-color: rgb(25, 26, 26);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#head4t {
+    color: rgb(233, 229, 229);
+    font-family: "Varela", sans-serif;
+    font-size: 16px;
+}
+
+.footcard {
+    background-color: rgb(20, 20, 20);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.contentcard {
+    background-color: rgb(33, 33, 34);
+}
+
+.content {
+    color: rgb(123, 115, 204);
+    font-weight: 600;
+    font-family: "Varela", sans-serif;
+    line-height: 1.6em;
+    font-size: 16px;
+}
+
+#d1 {
+    color: rgb(87, 219, 109);
+}
+
+#t1 {
+    color: rgb(245, 181, 42);
+}
+
+#p1 {
+    color: rgb(163, 163, 163);
+}
+
+#cont2 {
+    background: linear-gradient(-360deg, rgb(107, 20, 165), rgb(57, 81, 160));
+    height: 82%;
+    border-radius: 0px 20px 20px 0px;
+    width: 450px;
+}
+
+.label {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Varela", sans-serif;
+    margin-left: 24px;
+}
+
+.control {
+    margin-left: 24px;
+}
+
+#l1 {
+    margin-left: 24px;
+}
+
+#l2 {
+    margin-left: 0px;
+    margin-top: -30px;
+}
+
+#c2 {
+    margin-left: 0px;
+}
+
+#l3 {
+    margin-left: 0px;
+    margin-top: -20px;
+}
+
+#te1 {
+    margin-left: -24px;
+    margin-top: 10px;
+}
+
+#buto1 {
+    margin-left: -24px;
+    margin-top: 20px;
+    background-color: white;
+    color: rgb(27, 27, 27);
+    font-family: "Open Sans", sans-serif;
+}
+
+.card2 {
+    box-shadow: -1rem 0 3rem #000;
+    border-radius: 20px;
+    width: 300px;
+    transition: 0.4s ease-out;
+    position: relative;
+}
+
+.card2:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card2:hover {
+    transform: translate(-10px, -10px);
+    transition: 0.4s ease-out;
+    z-index: 10;
+}
+
+.card2:hover ~ .card2 {
+    position: relative;
+    left: 150px;
+    transition: 0.4s ease-out;
+}
+
+.bar2 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+}
+
+.emptybar2 {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+}
+
+.filledbar2 {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(52, 82, 218);
+    background: linear-gradient(
+        90deg,
+        rgb(144, 55, 204) 20%,
+        rgb(78, 80, 206) 65%,
+        rgb(201, 230, 39) 100%
+    );
+    transition: 0.6s ease-out;
+}
+
+.card2:hover .filledbar2 {
+    width: 240px;
+    transition: 0.4s ease-out;
+}
+
+#lin1 {
+    background-color: rgb(17, 17, 17);
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(146, 212, 221);
+}
+
+.card3 {
+    box-shadow: -1rem 0 1rem #000;
+    border-radius: 20px;
+    width: 300px;
+    transition: 0.4s ease-out;
+    position: relative;
+}
+
+#cnt1 {
+    display: flex;
+    width: 1100px;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.card3:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card3:hover {
+    transform: translate(-10px, -10px);
+    transition: 0.4s ease-out;
+}
+
+.card3:hover ~ .card3 {
+    position: relative;
+    left: 150px;
+    transition: 0.4s ease-out;
+}
+
+.card3:hover .filledbar2 {
+    width: 240px;
+    transition: 0.4s ease-out;
+}
+
+#hde3 {
+    color: white;
+}
+
+#cnt4 {
+    display: flex;
+    width: 1100px;
+    margin-left: -620px;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+#setSelectSize {
+    height: 30px;
+}
+
+#l4 {
+    color: white;
+    font-weight: 600;
+}
+
+#f3 {
+    margin-top: 10px;
+}
+
+#l5 {
+    color: white;
+    font-weight: 600;
+}
+
+#f4 {
+    margin-top: 10px;
+}
+
+#c1 {
+    margin-top: 40px;
+    display: inline;
+}
+
+#but12 {
+    margin-left: 500px;
+    margin-top: -150px;
+}
+
+#in12 {
+    margin-left: 12px;
+    width: 387px;
+    text-shadow: none;
+}
+
+#in13 {
+    margin-left: -11px;
+}
+
+#cont3 {
+    margin-left: 24%;
+    margin-top: 8%;
+    background: linear-gradient(-360deg, rgb(107, 20, 165), rgb(57, 81, 160));
+    height: 82%;
+    border-radius: 10px 10px 10px 10px;
+    width: 450px;
+}
+
+#but25 {
+    margin-left: 37%;
+}
+
+#buttonl25 {
+    position: absolute;
+    right: 0px;
+    height: 30px;
+    outline: none;
+    background-color: rgb(233, 109, 109);
+    margin-top: -70px;
+}

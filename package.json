@@ -1,0 +1,37 @@
+{
+  "name": "bphc-unite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run client\" \"nodemon server.js\"",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "engines": {
+    "node": "13.6.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/runtime": "^7.8.7",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "googleapis": "^39.2.0",
+    "mongoose": "^5.8.11",
+    "nodemon": "^2.0.3",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "react-datepicker": "^2.12.1"
+  },
+  "devDependencies": {}
+}

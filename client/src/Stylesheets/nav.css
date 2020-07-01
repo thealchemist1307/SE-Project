@@ -1,0 +1,35 @@
+#nav1in {
+  background: rgb(25, 26, 26);
+}
+
+#tnav {
+  background-color: rgb(25, 26, 26);
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-dropdown {
+  background-color: rgb(43, 44, 44);
+}
+
+.navbar-item {
+  background-color: rgb(43, 44, 44);
+  color: white;
+}
+
+#bnavitem {
+    background-color: rgb(25, 26, 26);
+}
+
+.menu, #boxhor {
+    background-color: rgb(36, 37, 37);
+}
+
+.menu-label{
+    color: white;
+    font-size: 15px;
+}
+
+#list1 {
+    color: rgb(197, 197, 197);
+}

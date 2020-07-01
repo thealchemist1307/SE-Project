@@ -1,0 +1,129 @@
+.AdminPage .buttonlogout {
+    margin-left: 92%;
+    margin-top: 2%;
+    background-color: rgb(241, 70, 70);
+    font-weight: 600;
+    font-family: "Varela", sans-serif;
+}
+
+.container25 {
+    position: absolute;
+    height: 500px;
+    width: 1500px;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.card {
+    display: flex;
+    height: 350px;
+    width: 280px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: -100px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+    transform: translate(-10px, -20px);
+    transition: 0.4s ease-out;
+    z-index: 10;
+}
+
+.card:hover ~ .card {
+    position: relative;
+    left: 150px;
+    transition: 0.4s ease-out;
+}
+
+.title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.title2 {
+    color: white;
+    font-family: "Varela", sans-serif;
+    font-weight: 300;
+    margin-top: 57px;
+    margin-left: 20px;
+}
+
+.bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+}
+
+.emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+}
+
+.filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(52, 82, 218);
+    background: linear-gradient(
+        90deg,
+        rgb(144, 55, 204) 20%,
+        rgb(78, 80, 206) 65%,
+        rgb(39, 153, 230) 100%
+    );
+    transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+    width: 150px;
+    transition: 0.4s ease-out;
+}
+
+.message3 {
+    position: absolute;
+    color: white;
+    margin-top: 120px;
+    font-weight: 600;
+    font-family: "Varela", sans-serif;
+    top: 10px;
+    left: 20px;
+}
+
+#header-text {
+    color: white;
+    font-size: 40px;
+    font-variant-caps: normal;
+}
+
+#buttonl {
+    position: absolute;
+    right: 0px;
+    height: 30px;
+    outline: none;
+    background-color: rgb(233, 109, 109);
+}
+
+#buttonl2 {
+    position: absolute;
+    right: 0px;
+    height: 30px;
+    outline: none;
+    background-color: rgb(233, 109, 109);
+    margin-top: -71px;
+}

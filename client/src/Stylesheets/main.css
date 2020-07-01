@@ -1,0 +1,88 @@
+.sideNav {
+    margin-left: 20px;
+}
+
+#navbarBasicExample.navbar-menu {
+    margin-left: 20px;
+}
+
+.navbar-item {
+    margin: 10px;
+}
+#content {
+    width: 1450px;
+    height: 700px;
+}
+/* html, body
+{
+    height: 100%;
+} */
+
+.is-active {
+    font-weight: bold;
+}
+
+.current {
+    color: white;
+}
+
+.columns.box {
+    margin-right: 10px;
+    width: 1450px;
+    height: 700px;
+    border-radius: 30px;
+}
+
+.pic-container {
+    width: 600px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.normal-container {
+    width: 1200px;
+    overflow-y: scroll;
+}
+
+.head {
+    width: 1270px;
+    transform: translate(4%);
+}
+
+.head .head2 {
+    width: 1260px;
+    height: 10px;
+}
+
+.head2 .text {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: "Varela", sans-serif;
+}
+
+#box2 {
+    height: 800px;
+    margin-top: 15px;
+    background-color: rgb(20, 20, 20);
+    margin-left: 5%;
+}
+
+#hde {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 27%;
+}
+
+#nav1 {
+    background: rgb(25, 26, 26);
+}
+
+.text1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
